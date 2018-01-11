@@ -6,11 +6,11 @@ const Button = ({ onPress, children }) => {
 
     return (
         <TouchableOpacity 
-        onPress={onPress} 
-        style={buttonStyle}>
-            <Text style={textStyle}>
-                {children}
-            </Text>
+            onPress={onPress} 
+            style={buttonStyle}>
+                <Text style={textStyle}>
+                    {children}
+                </Text>
         </TouchableOpacity>
     );
 };
